@@ -8,5 +8,5 @@ ReactDOM.render(
   <React.StrictMode>
     <Downline />
   </React.StrictMode>,
-  document.getElementById('container-fluid')
+  document.querySelector('hl_dashboard--website-visitors')
 );
