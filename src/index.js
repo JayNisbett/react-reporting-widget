@@ -2,15 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-// Find all widget divs
-const WidgetDivs = document.querySelectorAll('.reddit_widget')
+// let widget = `<div style="margin: 100px auto; max-width: 500px;"><div class="reddit_widget" data-subreddit="javascript"></div></div>`;
 
-// Inject our React App into each
-WidgetDivs.forEach(Div => {
-  ReactDOM.render(
-    <React.StrictMode>
-      <App domElement={Div} />
-    </React.StrictMode>,
-    Div
-  );
-})
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('dashboard')
+);
