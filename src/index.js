@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Downline from './App';
 
 // Find all widget divs
 const WidgetDivs = document.querySelectorAll('.reddit_widget')
@@ -9,7 +9,7 @@ const WidgetDivs = document.querySelectorAll('.reddit_widget')
 WidgetDivs.forEach(Div => {
   ReactDOM.render(
     <React.StrictMode>
-      <App domElement={Div} />
+      <Downline />
     </React.StrictMode>,
     Div
   );
