@@ -75,7 +75,7 @@ const conditionalRowStyles = [
   }
 ];
 
-function Downline() {
+function App() {
   return (
     <div className="App">
       <DataTable
@@ -90,4 +90,4 @@ function Downline() {
     </div>
   );
 }
-export default Downline;
+export default App;
