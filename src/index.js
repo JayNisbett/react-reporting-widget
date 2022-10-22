@@ -8,5 +8,5 @@ ReactDOM.render(
   <React.StrictMode>
     <Downline />
   </React.StrictMode>,
-  document.getElementById('dashboard')
+  document.getElementById('container-fluid')
 );
