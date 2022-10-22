@@ -3,6 +3,7 @@ import DataTable from "react-data-table-component";
 import "./styles.css";
 import downline from "./dummy/downline";
 
+console.log(downline);
 const colors = require("tailwindcss/colors");
 
 const columns = [
